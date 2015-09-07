@@ -1,0 +1,53 @@
+<!doctype html>
+<html class="no-js">
+<head>
+    <meta charset="utf-8">
+    <title>Soapee Lye Calculator</title>
+    <meta name="description" content="Soapee is a Soap Lye Calculator and a Soap Recipe Database">
+    <meta name="viewport" content="width=device-width">
+    <meta name="google-site-verification" content="awwz5nNBHKNEN-NMvBsQp2oPOSUHqJ86MeBvRXnM2oQ" />
+    <meta property="og:image" content="http://soapee.com/logo.jpg" />
+    <link rel='shortcut icon' type='image/png' href='/favicon.png' />
+</head>
+
+<body>
+<!--[if lt IE 8]>
+<p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade
+    your browser</a> to improve your experience.</p>
+<![endif]-->
+
+<!-- application container -->
+<div id="app">
+    <style type="text/css">
+        #initializing {
+            position: absolute;
+
+            top: 50%;
+            left: 50%;
+            height: 30%;
+            width: 50%;
+            margin: -10% 0 0 -10%;
+        }
+
+        #initializing i {
+
+            font-size: 15em;
+            color: silver;
+        }
+    </style>
+    <div id="initializing">
+        <i class="fa fa-cog fa-spin"></i>
+    </div>
+</div>
+
+
+<!--SDKs-->
+<script type="text/javascript" src="https://connect.facebook.net/en_US/sdk.js"></script>
+<script type="text/javascript" src="https://apis.google.com/js/platform.js"></script>
+
+<!--The application-->
+<script type="text/javascript" src="/bundle/vendor.js"></script>
+<script type="text/javascript" src="/bundle/app.js"></script>
+
+</body>
+</html>

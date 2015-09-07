@@ -1,0 +1,856 @@
+#application button.btn-xxs {
+  padding: 1px 5px;
+  font-size: 10px;
+}
+#application input.short-numeric {
+  height: 25px;
+  width: 60px;
+  text-align: center;
+}
+#application input.compact-numeric {
+  height: 25px;
+  width: 45px;
+  text-align: center;
+}
+#application input.super-short-numeric {
+  height: 25px;
+  width: 30px;
+  text-align: center;
+}
+#application table.table-super-condensed td {
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+#application .t-table {
+  display: table;
+}
+#application .t-cell {
+  display: table-cell;
+}
+#application .t-row {
+  display: table-row;
+}
+#application .truncate {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+#application .no-select {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -ms-user-select: none;
+}
+#application #application-view > .container {
+  padding-bottom: 20px;
+}
+#forgot label {
+  font-weight: bold;
+  margin-right: 5px;
+}
+#forgot .spacer {
+  margin-top: 15px;
+}
+#main-landing .header-container {
+  height: 800px;
+}
+#main-landing .header-container .header {
+  position: absolute;
+  top: 64px;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 800px;
+  display: table;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+}
+#main-landing .header-container .header .text-vertical-center {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+#main-landing .header-container .header .text-vertical-center h1 {
+  font-size: 120px;
+}
+#main-landing .header-container .header .text-vertical-center h1,
+#main-landing .header-container .header .text-vertical-center h2 {
+  color: #fff;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+#main-landing .start-item {
+  text-align: center;
+  padding-bottom: 50px;
+}
+#main-landing #start {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+#main-landing #start .fa {
+  color: #a0d2f8;
+}
+#main-landing #start .fa-circle {
+  color: #098bef;
+}
+#my-status-updates .markdown-editor textarea {
+  width: 50%;
+}
+#my-status-updates .add-status-update {
+  padding-bottom: 40px;
+}
+#my-status-updates .status-update {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 3px;
+  border: 1px solid #e0e0e0;
+  border-radius: 3px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+}
+#my-status-updates .status-update p {
+  margin-bottom: 5px;
+}
+#my-status-updates .status-update p:last-child {
+  margin-bottom: 0;
+}
+#my-status-updates .actions span {
+  margin-left: 10px;
+}
+#my-status-updates .dropzone {
+  margin-bottom: 20px;
+}
+#oil h1 {
+  font-size: 30px;
+}
+#oil .fb-like {
+  margin-bottom: 20px;
+}
+#profile .input-description {
+  width: 100%;
+  min-height: 40px;
+  padding: 5px;
+  background-color: transparent;
+}
+#profile .username {
+  padding-bottom: 20px;
+}
+#profile .username legend {
+  margin-bottom: 10px;
+}
+#profile .friend-profile-link {
+  display: inline-block;
+  float: left;
+  margin-right: 5px;
+}
+#recipe h1 {
+  font-size: 30px;
+}
+#recipe .description {
+  font-size: 16px;
+  line-height: 24px;
+  padding-bottom: 2px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #e5e5e5;
+}
+#recipe .description .marked-display p {
+  margin-bottom: 10px;
+}
+#recipe .description .marked-display p:last-child {
+  margin-bottom: 5px;
+}
+#recipe .openByClickOn {
+  display: inline-block;
+  margin-left: 5px;
+}
+#recipe #notes p {
+  margin-bottom: 3px;
+}
+#recipe .fb-like {
+  margin-bottom: 20px;
+}
+#recipe .private {
+  padding-top: 10px;
+}
+#recipe .private .fa-lock {
+  color: #ff9200;
+  font-size: 40px;
+}
+#recipe .private-friends {
+  padding-top: 10px;
+}
+#recipe .private-friends .fa-lock {
+  color: #00c274;
+  font-size: 40px;
+}
+#recipe .carousel {
+  margin-bottom: 30px;
+}
+#recipes h1 {
+  font-size: 30px;
+}
+#recipes .marked-display p {
+  line-height: 17px;
+  margin-bottom: 6px;
+}
+#recipes .marked-display p:last-child {
+  margin-bottom: 0;
+}
+#recipe-journal-edit .markdown-editor textarea {
+  width: 50%;
+}
+#recipe-journal-edit .dropzone {
+  margin-bottom: 20px;
+}
+#status-update .status-update-content {
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #eee;
+  border-radius: 3px;
+}
+#status-update .carousel {
+  margin-bottom: 30px;
+}
+#status-update-edit .markdown-editor textarea {
+  width: 50%;
+}
+#status-update-edit .dropzone {
+  margin-bottom: 20px;
+}
+#user-profile .profile-avatar .user-avatar {
+  float: right;
+  padding-right: 20px;
+  padding-top: 20px;
+}
+#user-profile .jumbotron.compact {
+  padding-top: 10px;
+  padding-left: 20px;
+}
+#user-profile .jumbotron.compact h1 {
+  font-size: 30px;
+}
+#user-profile .jumbotron.compact h2 {
+  font-size: 24px;
+}
+#user-profile .jumbotron.compact h3,
+#user-profile .jumbotron.compact h4,
+#user-profile .jumbotron.compact h5,
+#user-profile .jumbotron.compact h6 {
+  font-size: 20px;
+}
+#user-profile .friends .button-add-friend {
+  float: left;
+  margin-right: 5px;
+}
+#user-profile .friends .friend-profile-link {
+  display: inline-block;
+  float: left;
+  margin-right: 5px;
+}
+#user-profile .user-recipes {
+  padding-top: 20px;
+}
+.select-oils td.selected {
+  padding-left: 6px;
+  padding-right: 0;
+}
+.signup-or-login-to-save-changes .alert {
+  margin: 0;
+  margin-bottom: 30px;
+}
+.signup-or-login-to-save-changes .strike .or {
+  background-color: #fff;
+}
+.add-comment textarea {
+  width: 50%;
+}
+.add-comment .alert {
+  padding: 2px 3px;
+  margin: 0 0 15px 0;
+  width: 50%;
+}
+.animated-modal .close-modal {
+  cursor: pointer;
+  text-align: center;
+  font-size: 50px;
+}
+.animated-modal .animated-modal-content {
+  padding: 20px;
+}
+.animated-modal .fa {
+  opacity: 0.6;
+  transition: opacity 0.1s;
+}
+.animated-modal .fa:hover {
+  opacity: 1;
+}
+.bootstrap-modal .modal {
+  z-index: 10000;
+}
+.button-user-notifications {
+  height: 38px;
+  margin-right: 5px;
+}
+.button-user-notifications .badge {
+  top: -2;
+  padding: 4px 6px 4px 6px;
+  margin-left: 3px;
+  color: #2196f3;
+  background-color: #fff;
+  font-weight: bold;
+}
+.button-user-notifications .fa {
+  font-size: 18px;
+  line-height: 24px;
+}
+.button-user-notifications .fa.active {
+  color: #ff9800;
+}
+.comment {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 3px;
+  border: 1px solid #e0e0e0;
+  border-radius: 3px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+}
+.comment p {
+  margin-bottom: 5px;
+}
+.comment p:last-child {
+  margin-bottom: 0;
+}
+.comment .about {
+  font-size: 12px;
+  height: 18px;
+}
+.comment span.time,
+.comment span.link {
+  margin-left: 5px;
+  border-bottom: 1px dotted #c0c0c0;
+}
+.facebook-comments .fb_iframe_widget,
+.facebook-comments .fb_iframe_widget span,
+.facebook-comments .fb_iframe_widget span iframe[style] {
+  min-width: 100% !important;
+  width: 100% !important;
+}
+.feed-item {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 3px;
+  border: 1px solid #e0e0e0;
+  border-radius: 3px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+}
+.feed-item p {
+  margin-bottom: 5px;
+}
+.feed-item p:last-child {
+  margin-bottom: 0;
+}
+.feed-item .about {
+  font-size: 12px;
+  height: 18px;
+}
+.feed-item span.time,
+.feed-item span.link {
+  margin-left: 5px;
+  border-bottom: 1px dotted #c0c0c0;
+}
+.feed-item .thumbnail {
+  margin-bottom: 10px;
+  margin-left: 0 !important;
+  margin-right: 10px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  padding-top: 5px;
+  width: 100%;
+  height: 60px;
+  color: #aad8ff;
+  background-color: #2925ff;
+  border-color: transparent;
+  box-shadow: 0px -1px 2px rgba(0,0,0,0.3);
+}
+.footer a {
+  color: #ffc000;
+}
+.footer .content {
+  font-size: 15px;
+}
+.footer .share-this {
+  padding-top: 10px;
+}
+.footer .share-this [id^=___plusone] {
+  width: 72px !important;
+}
+.form-save-recipe .input-description {
+  padding: 4px;
+  min-height: 38px;
+  width: 100%;
+}
+.form-save-recipe .action-buttons {
+  margin-top: 20px;
+}
+.form-save-recipe .editor p {
+  margin-bottom: 3px;
+}
+.google-comments {
+  width: 100% !important;
+}
+.google-comments > iframe {
+  width: 100% !important;
+}
+.grid-oil .griddle th {
+  cursor: pointer;
+}
+.grid-oil .griddle .top-section {
+  clear: both;
+  display: table;
+  width: 100%;
+  padding-bottom: 3px;
+}
+.grid-oil .griddle .top-section .filter-container input {
+  height: 30px;
+}
+.grid-oil .griddle .griddle-filter {
+  float: left;
+  width: 50%;
+  text-align: left;
+  color: #222;
+  min-height: 1px;
+}
+.grid-oil .griddle .griddle-settings-toggle {
+  float: left;
+  width: 50%;
+  text-align: right;
+  padding-right: 2px;
+}
+.grid-oil .griddle .griddle-settings {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  color: #222;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.grid-oil .griddle .griddle-settings .griddle-columns {
+  clear: both;
+  display: table;
+  width: 100%;
+  border-bottom: 1px solid #ededed;
+  margin-bottom: 10px;
+}
+.grid-oil .griddle .griddle-settings .griddle-column-selection {
+  float: left;
+  width: 20%;
+}
+.grid-oil .griddle .footer-container {
+  padding: 0;
+  border: 0;
+  background-color: #ededed;
+  color: #222;
+}
+.grid-oil .griddle .griddle-previous,
+.grid-oil .griddle .griddle-page,
+.grid-oil .griddle .griddle-next {
+  float: left;
+  width: 33%;
+  min-height: 1px;
+  margin-top: 5px;
+}
+.grid-oil .griddle .griddle-page {
+  text-align: center;
+}
+.grid-oil .griddle .griddle-next {
+  text-align: right;
+}
+.grid-oil .griddle .pagination {
+  margin: 15px 0 15px 0;
+}
+.grid-oil .toolbar {
+  margin-bottom: 10px;
+  padding-right: 2px;
+}
+.grid-oil .toolbar button {
+  margin-left: 5px;
+}
+.grid-oil .toolbar button .fa {
+  padding-right: 4px;
+}
+.imageable .dz-image-preview {
+  background: transparent !important;
+}
+.imageable-edit .thumbnail.deleting {
+  border-color: #f00;
+}
+.imageable-edit .thumbnail img {
+  margin-top: 8px;
+  border-radius: 5px;
+}
+.imageable-edit .thumbnail .caption {
+  text-align: center;
+}
+.imageable-edit .thumbnail .caption p {
+  margin-bottom: 0;
+}
+.imageable-thumbnails {
+  margin-top: 10px;
+}
+.imageable-thumbnails img.thumbnail {
+  margin-left: 10px;
+}
+.list-oils-recipe td.value {
+  min-width: 83px;
+}
+.list-oils-recipe td.value .short-numeric {
+  width: 50px !important;
+}
+.list-oils-recipe .unit {
+  color: #aeaeae;
+  padding-left: 5px;
+}
+.list-oils-selector .oils-container {
+  overflow-y: auto;
+}
+.list-oils-selector .oils-container td:hover {
+  cursor: pointer;
+  background-color: #ebebeb;
+}
+.list-oils-selector .oils-container td.selected {
+  background-color: #d5edf2;
+}
+.markdown-editor textarea {
+  padding: 5px;
+  line-height: 22px;
+  border: 1px solid #e5e5e5;
+  border-radius: 3px;
+}
+.markdown-editor .md-header {
+  padding-bottom: 4px;
+}
+.markdown-editor .md-preview {
+  height: 100% !important;
+  font-size: 16px;
+}
+.media-signin-buttons .btn-signup {
+  margin-top: 15px;
+}
+.media-signin-buttons .action-button {
+  margin-top: 15px;
+  text-align: center;
+}
+.media-signin-buttons .link-signup {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  width: 250px;
+}
+.media-signin-buttons .link-signup .action {
+  font-size: 16px;
+}
+.media-signin-buttons .link-signup .fa {
+  font-size: 20px;
+  padding-right: 15px;
+}
+.navbar-component .btn-profile {
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 6px;
+  padding-right: 6px;
+  color: #fff;
+  background-color: #58a6e6;
+}
+.navbar-component .caption {
+  padding-right: 5px;
+}
+.navbar-component .caption .user-avatar {
+  height: 25px;
+  border-radius: 3px;
+}
+.properties-oil .title {
+  font-style: italic;
+}
+.recipe-journal-add .markdown-editor textarea {
+  width: 50%;
+}
+.recipe-journal-add .dropzone {
+  margin-bottom: 20px;
+}
+.recipe-journal-item {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 3px;
+  border: 1px solid #e0e0e0;
+  border-radius: 3px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+}
+.recipe-journal-item p {
+  margin-bottom: 5px;
+}
+.recipe-journal-item p:last-child {
+  margin-bottom: 0;
+}
+.recipe-journal-item .about {
+  font-size: 12px;
+  height: 18px;
+}
+.recipe-journal-item span.time,
+.recipe-journal-item span.link {
+  margin-left: 5px;
+  border-bottom: 1px dotted #c0c0c0;
+}
+.recipe-journal-item .actions {
+  height: 23px;
+}
+.recipe-journal-item.view {
+  border: none;
+  box-shadow: none;
+}
+.recipe-list-item {
+  padding-bottom: 15px;
+}
+.recipe-list-item .user-avatar {
+  float: right;
+}
+.recipe-list-item .recipe-name {
+  font-size: 20px;
+}
+.recipe-list-item .iodine {
+  padding-right: 10px;
+}
+.recipe-list-item .properties li,
+.recipe-list-item .fats li,
+.recipe-list-item .oils li {
+  float: left;
+  padding-right: 10px;
+}
+.recipe-print-area {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #fff;
+  color: #000 !important;
+  z-index: 5432;
+}
+.recipe-print-area table {
+  margin-bottom: 0;
+}
+.recipe-print-area table td {
+  padding: 2px !important;
+  margin: 0 !important;
+}
+.recipe-print-area .recipe-breakdown,
+.recipe-print-area .recipe-totals,
+.recipe-print-area .summary {
+  padding: 5px;
+  border: 1px solid #e0e0e0;
+  border-radius: 5px;
+}
+.recipe-print-area .notes {
+  padding: 10px;
+  border: 1px solid e0e0e0;
+  border-radius: 5px;
+}
+.recipe-print-area .notes p {
+  margin-bottom: 0.1em;
+}
+.sap-calculator .list-oils-selector .oils-container {
+  height: 250px;
+  max-height: 250px;
+}
+.sap-calculator .properties-oil,
+.sap-calculator .recipe-oils-container {
+  max-height: 285px;
+  overflow-y: auto;
+}
+.sap-calculator .recipe-oils input {
+  height: 25px;
+}
+.sap-calculator .panel-heading .openByClickOn {
+  float: right;
+}
+.sap-calculator #mixed-fields .left-spacer {
+  padding-left: 20px;
+}
+.sap-calculator #mixed-fields .alert {
+  margin-top: 20px;
+  padding: 4px 5px;
+}
+.sap-calculator .weights-water {
+  padding-top: 5px;
+}
+.sap-calculator .superfat-after {
+  padding-top: 5px;
+}
+.share-this {
+  display: table;
+}
+.share-this .t-cell {
+  padding-left: 10px;
+  vertical-align: top;
+}
+.spinner {
+  text-align: center;
+}
+.spinner .fa {
+  font-size: 30px;
+}
+.text-editor .btn-toolbar {
+  padding-bottom: 3px;
+}
+.text-editor .editor {
+  border: 1px solid #e5e5e5;
+  border-radius: 3px;
+  padding: 5px;
+}
+.tooltip-question {
+  color: #0a6bb7;
+  margin-left: 5px;
+  font-size: 16px;
+}
+.user-avatar .avatar-border {
+  display: inline-block;
+  padding: 3px;
+  border: 1px solid #c0c0c0;
+  border-radius: 3px;
+}
+.user-avatar .avatar-border img {
+  width: 30px;
+  height: 30px;
+  border-radius: 3px;
+}
+.user-avatar .fa-user {
+  padding: 0 5px 0 5px;
+  font-size: 30px;
+}
+.user-notifications {
+  width: 260px;
+}
+.user-notifications .user-notification {
+  padding: 6px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #f1f1f1;
+}
+.user-notifications .user-notification:last-child {
+  border-bottom: none;
+}
+.user-notifications .user-notification.unread {
+  background-color: #f7fbfe;
+}
+.user-notifications .user-notification .actions {
+  padding-top: 5px;
+}
+.user-notifications .user-notification .actions .btn {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+.user-notifications .user-notification .actions .btn .fa {
+  margin-right: 10px;
+}
+.user-notifications .user-notification .user-avatar {
+  float: left;
+  padding-right: 5px;
+}
+.strike {
+  position: relative;
+  border-bottom: 1px #ddd solid;
+  height: 20px;
+  margin-bottom: 20px;
+}
+.strike .or {
+  position: absolute;
+  left: 48%;
+  top: 7px;
+  padding: 0 3px;
+  background-color: #f9f9f9;
+}
+.btn-numbered-page a,
+.btn-next-page a,
+.btn-prev-page a,
+.btn-first-page a,
+.btn-last-page a {
+  cursor: pointer;
+}
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  margin-bottom: 60px;
+}
+.panel-info > .panel-heading {
+  background-color: #3434f5;
+}
+.panel-success > .panel-heading {
+  background-color: #00bd6c;
+}
+.alert {
+  padding: 2px 10px;
+  margin: 0 15px 15px 15px;
+}
+.alert-warning {
+  background-color: #f28700;
+}
+.panel-heading .btn-toolbar {
+  margin-top: -2px;
+}
+.alert {
+  padding: 8px 10px;
+}
+.label {
+  font-size: 90%;
+}
+.navbar-brand {
+  font-size: 30px;
+}
+.alert-dismissible {
+  font-weight: bolder;
+}
+.alert-dismissible .close {
+  right: 0;
+}
+.tab-pane {
+  padding-top: 15px;
+}
+.popover {
+  max-width: 100%;
+}
+.carousel .carousel-inner .item img {
+  margin: auto;
+}
+.fade-enter {
+  opacity: 0.01;
+  transition: opacity 0.2s ease-in;
+}
+.fade-enter-active {
+  opacity: 1;
+}
+.fade-leave {
+  opacity: 1;
+  transition: opacity 0.1s ease-out;
+}
+.fade-leave-active {
+  opacity: 0.01;
+}
+.zoom-enter {
+  opacity: 0.01;
+  transform: scale3d(0.3, 0.3, 0.3);
+  transition: all 0.1s ease-in;
+}
+.zoom-enter-active {
+  opacity: 1;
+  transform: scale3d(1, 1, 1);
+}
+.zoom-leave {
+  opacity: 1;
+  transition: all 0.1s ease-in;
+}
+.zoom-leave-active {
+  opacity: 0.01;
+  transform: scale3d(0.3, 0.3, 0.3);
+}
